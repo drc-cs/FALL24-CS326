@@ -34,7 +34,7 @@
 .backgrounds {
     /* background: linear-gradient(to bottom, #ffffff 0%, #ffffff 98%, #F3EEFF 100%); */
     /* background image */
-    background-image: url('background.png');
+    background-color: #ffffff;
     background-size: 100% 100%;
 }
 
