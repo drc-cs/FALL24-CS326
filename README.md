@@ -12,7 +12,7 @@ This schedule is tentative and may change as the course progresses. Click on lin
 
 | Lecture | Date | Topic | Homework Due | Project Milestone Due |
 | --- | --- | --- | --- | --- |
-| 1 | 09.24.2024 | [Course Overview](https://drc-cs.github.io/FALL2024-CS326/lectures/L01_overview/#/) | | |
+| 1 | 09.24.2024 | [Course Overview](https://drc-cs.github.io/FALL24-CS326/lectures/L01_overview/#/) | | |
 | 2 | 09.26.2024 | Data Collection and Structure | | |
 | 3 | 10.01.2024 | Exploratory Data Analysis | H.01 | |
 | 4 | 10.03.2024 | Correlation, Association, and Simpson's Paradox | | |
