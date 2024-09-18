@@ -16,23 +16,23 @@ This schedule is tentative and may change as the course progresses. Click on lin
 | 2 | 09.26.2024 | Data Collection and Structure | | |
 | 3 | 10.01.2024 | Exploratory Data Analysis | H.01 | |
 | 4 | 10.03.2024 | Correlation, Association, and Simpson's Paradox | | |
-| 5 | 10.08.2024 | A/B Testing and Statistical Inference | | P.02 |
+| 5 | 10.08.2024 | A/B Testing and Statistical Inference | | P.01 |
 | 6 | 10.10.2024 | Data Preprocessing | | |
 | 7 | 10.15.2024 | Supervised Machine Learning I <br> *KNN / Logistic Regression* | H.02 | |
 | 8 | 10.17.2024 | Supervised Machine Learning II <br>  *ROC-AUC / K-Fold / Multi-Class* | | |
 | 9 | 10.22.2024 | Supervised Machine Learning III <br> *Decision Trees / Ensembles* | | |
-| 10 | 10.24.2024 | Recommendation Modeling | | |
-| 11 | 10.29.2024 | Unsupervised Machine Learning | | |
-| 12 | 10.31.2024 | Project 1-on-1 | H.03 | P.02 |
-| 13 | 11.05.2024 | Project 1-on-1 | | |
+| 10 | 10.24.2024 | Unsupervised Machine Learning | H.03 | |
+| 11 | 10.29.2024 | Recommendation Modeling | | |
+| 12 | 10.31.2024 | Project 1-on-1 | | P.02 |
+| 13 | 11.05.2024 | Project 1-on-1 | H.04 | |
 | 14 | 11.07.2024 | Time Series Analysis | | |
-| 15 | 11.12.2024 | Natural Language Processing | H.04 | |
-| 16 | 11.14.2024 | Special Topic | | |
-| 17 | 11.19.2024 | Quiz Review | | |
-| 18 | 11.21.2024 | Storytelling and Ethics | H.05 | P.03 |
-| 19 | 11.26.2024 | Quiz | | P.03 - P.04 |
-| 20 | 12.03.2024 | Project Presentation | | |
-| 21 | 12.05.2024 | Project Presentation  | | |
+| 15 | 11.12.2024 | Natural Language Processing <br> *Text Preprocessing* | | |
+| 16 | 11.14.2024 | Natural Language Processing <br> *Text Generation* | | |
+| 17 | 11.19.2024 | Quiz Review | H.05 | |
+| 18 | 11.21.2024 | Storytelling and Ethics | | |
+| 19 | 11.26.2024 | Quiz | | |
+| 20 | 12.03.2024 | Project Presentation | | P.03 - P.04 |
+| 21 | 12.05.2024 | Project Presentation  | | P.03 |
 
 ------
 
@@ -42,10 +42,10 @@ There is a high emphasis on the practical application of the concepts covered in
 
 | Component | Weight |
 | --- | --- |
-| Homework | 50% |
+| Homework | 40% |
 | Project | 30% |
 | Quiz | 20% |
-
+| Attendance | 10% |
 ------
 
 ## Grading Scale
@@ -79,21 +79,21 @@ Lectures will be broken down into theory and applications.
 
 Homeworks are designed to reinforce the concepts covered in lecture.
 
-**Due**: Homework due dates are posted in the README. You will have 3 attempts to submit your homework.
+**Due**: Homework due dates are posted in the README.
 
 **Late Policy**: Late homeworks will drop 1 point per day (1% of your class grade).
 
-**Platform**: A submission script has been provided to submit your homeworks, please see the homework README page for more information.
+**Platform**: We will use Gradescope for homework submission.
 
-**Collaboration**: You are encouraged to work with your peers on homeworks. However, you must submit your own work. Copying and pasting code from other sources will be detected and penalized.
+**Collaboration**: You are encouraged to work with your peers on homeworks. However, you must submit your own work. Copying and pasting code will be detected and penalized.
 
 | Homework | Due Date | Description |
 | --- | --- | --- |
-| H.01 | ... | Hello, World! |
-| H.02 | ... | Exploratory Analysis & Statistical Inference |
-| H.03 | ... | Supervised Machine Learning |
-| H.04 | ... | Unsupervised Machine Learning |
-| H.05 | ... | Time Series Analysis |
+| H.01 | 10.01.2024 | Hello, World! |
+| H.02 | 10.15.2024 | Exploratory Analysis & Statistical Inference |
+| H.03 | 10.24.2024 | Supervised Machine Learning |
+| H.04 | 11.05.2024 | Unsupervised Machine Learning |
+| H.05 | 11.19.2024 | Natural Language Processing |
 
 ------
 
@@ -103,10 +103,10 @@ You will complete a team project over the course of the semester. The project co
 
 | Deliverable | Due Date | Description |
 | --- | --- | --- |
-| P.01 | ... | Group formation & project proposal. |
-| P.02 | ... | 10 minute status update. Elevator-style pitch deck encouraged. |
-| P.03 | ...  | 20 minute, final presentation to the class. |
-| P.04 | ... | 2 page, final technical report. |
+| P.01 | 10.08.2024 | Group formation & project proposal. |
+| P.02 | 10.31.2024 | 10 minute status update. Elevator-style pitch deck encouraged. |
+| P.03 | 12.03.2024 OR 12.05.2024 | 20 minute, final presentation to the class. |
+| P.04 | 12.03.2024 | 2 page, final technical report. |
 
 
 Collective ambition and equal contribution is rewarded.
@@ -148,6 +148,6 @@ If you are feeling distressed or overwhelmed, please reach out for help. Student
 
 ## Contact Information
 
-**Joshua D'Arcy (Instructor)**: joshua.darcy@northwestern.edu
-**Lingzhi Wang (TA)**: LingzhiWang2025@u.northwestern.edu
+**Joshua D'Arcy (Instructor)**: joshua.darcy@northwestern.edu <br>
+**Lingzhi Wang (TA)**: LingzhiWang2025@u.northwestern.edu <br>
 **Nathan Mo (PM)**: nmf0887@ads.northwestern.edu

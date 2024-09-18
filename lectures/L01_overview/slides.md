@@ -60,20 +60,21 @@ Both Canvas and GitHub will be used extensively throughout this course.
 <div class = "col-wrapper">
 <div class="c1" style = "width: 50%">
 
-[Canvas](https://canvas.northwestern.edu/courses/211880)
+[Canvas](https://canvas.northwestern.edu/courses/217294)
   - Syllabus (with links!)
-  - Grades
-  - Discussion threads*
   - Announcements
+  - Grades
+  - Discussion threads
   - Panopto recordings
+  - Homework assignments
   - Project assignments
 
 </div>
 <div class="c2" style = "width: 50%">
 
-[GitHub Repository](https://github.com/drc-cs/cs326)
+[GitHub Repository](https://github.com/drc-cs/FALL24-CS326)
   - Syllabus (with links!)
-  - Lecture slides*
+  - Lecture slides
   - Homework assignments
 
 </div>
@@ -109,9 +110,10 @@ There is a high emphasis on the practical application of the concepts covered in
 
 | Component | Weight |
 | --- | --- |
-| Homework | 50% |
+| Homework | 40% |
 | Project | 30% |
 | Quiz | 20% |
+| Attendance | 10% |
 
 </div>
 <div class="c2" style = "width: 50%">
@@ -208,7 +210,7 @@ If you are feeling distressed or overwhelmed, please reach out for help. Student
 ### **Office Hours**
 
 - Time: 12:30-1:30PM on Tuesdays (after lecture)
-- Location: TBA
+- Location: Mudd 3510
 
 ### **Canvas Discussion**
 
@@ -218,6 +220,7 @@ If you are feeling distressed or overwhelmed, please reach out for help. Student
 ### **Email**
 
 We are here to help you! Please try the office hours and Canvas discussion first, but feel free to reach out to via email if you are still stuck.
+
 - **Joshua D'Arcy (Instructor)**: joshua.darcy@northwestern.edu
 - **Lingzhi Wang (TA)**: LingzhiWang2025@u.northwestern.edu
 - **Nathan Mo (PM)**: nmf0887@ads.northwestern.edu
@@ -229,7 +232,7 @@ We are here to help you! Please try the office hours and Canvas discussion first
 # Homework Assignment
 ## H.01 "Hello World!"
 
-Due: ****
+Due: 10.01.2024
 
 </div>
 
@@ -309,7 +312,7 @@ The following command (when used inside the class folder) will pull the latest v
 git pull
 ```
 
-If you have any issues with using this git-based system, please reach out to your TA or myself.
+If you have any issues with using this git-based system, please reach out to us during office hours or via email.
 
 <!--s-->
 
@@ -335,34 +338,9 @@ Let's do the first homework together.
 
 ## H.01 | Submitting Homework
 
-You will submit your homework using the provided submission script. 
-
-But first, you need a username (your **northwestern** email) and password!
-
-```bash
-python account.py --create-account
-```
-
-Once you have a username and password, you can submit your completed homework. You should receive your score or feedback within a few seconds, but this may take longer as the homeworks get more involved.
-
-```bash
-python submit.py --homework H.01/hello_world.py --username your_username --password your_password
-```
-
-You can save your username and password as environment variables so you don't have to enter them every time (or expose them in your notebooks)!
-
-```bash
-export CS326_USERNAME="your_username"
-export CS326_PASSWORD="your_password"
-```
-
 <!--s-->
 
 ## H.01 | Homework Grading
-
-The highest score will be recorded, so long as it is submitted before the deadline! You have 3 attempts for every homework. 
-
-Late homeworks will be penalized 10% per day.
 
 <!--s-->
 

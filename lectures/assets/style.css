@@ -55,16 +55,16 @@
 }
 
 .reveal a {
-    color: #965db6;
+    color: #7B2A84;
     text-decoration: none;
 }
 
 .reveal a:link {
-    color: #965db6;
+    color: #7B2A84;
   }
   
 .reveal a:visited {
-color: #965db6;
+color: #7B2A84;
 }
 
 .reveal a:hover {
@@ -72,7 +72,7 @@ color: rgb(77, 73, 75);
 }
 
 .reveal a:active {
-color: #965db6;
+color: #7B2A84;
 }
 
 .reveal h1 {
@@ -92,7 +92,7 @@ color: #965db6;
     font-size: 1em;
     max-width: 100%;
     padding-top: 0.3em;
-    color: #672473;
+    color: #2A3384;
 }
 
 
