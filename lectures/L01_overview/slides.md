@@ -40,6 +40,75 @@ revealOptions:
 
 <!--s-->
 
+
+<!--s-->
+
+## What is Data Science?
+
+
+  Data Science sits at the intersection of computer science, statistics, and domain expertise. It is the process of extracting knowledge and insights from data.
+
+<div style="text-align:center">
+<img src="https://cdn-images-1.medium.com/max/800/1*MuglQTETZNJCRp1iceE7-Q.png">
+<p><span style="font-size: 0.4em"> © Steven Geringer </span></p>
+</div>
+
+<!--s-->
+
+## Course Resources
+
+Both Canvas and GitHub will be used extensively throughout this course.
+
+<div class = "col-wrapper">
+<div class="c1" style = "width: 50%">
+
+### Canvas [&#x1F517;](https://canvas.northwestern.edu/courses/217294)
+  - Syllabus (with links!)
+  - Announcements
+  - Grades
+  - Discussion threads
+  - Panopto recordings
+  - Homework assignments
+  - Project assignments
+
+</div>
+<div class="c2" style = "width: 50%">
+
+### GitHub Repository [&#x1F517;](https://github.com/drc-cs/FALL24-CS326)
+  - Syllabus (with links!)
+  - Lecture slides
+  - Homework assignments
+
+</div>
+</div>
+
+<!--s-->
+
+
+## Lecture Breakdown
+
+Lectures will be broken down into theory and applications.
+
+We will use **PollEverywhere** to ensure engagement and understanding during the lecture component, you will not be graded on your responses.
+
+| Component | Duration | Description |
+| --- | --- | --- |
+| Lecture | 55 minutes | Theoretical Foundations |
+| Break | 5 minutes | ~ |
+| Homework Lab | 20 minutes | Application and Practice |
+
+
+<!--s-->
+
+## Attendance
+
+Attendance at lectures is **mandatory** and in your best interest!
+
+You may miss up two lectures without penalty. After that, you will lose 1% of your final grade for each additional missed lecture without a valid excuse.
+
+<!--s-->
+
+
 ## What is a Data Science Pipeline?
 
 1. Data Source
