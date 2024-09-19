@@ -77,15 +77,15 @@ Lectures will be broken down into theory and applications.
 
 ## Homework
 
-Homeworks are designed to reinforce the concepts covered in lecture.
+Homeworks are designed to reinforce the concepts covered in lecture. They will be a mix of theoretical and practical problems. If there is time, we will work on homework at the end of every lecture as a group. 
 
-**Due**: Homework due dates are posted in the README.
+- **Due**: Homework due dates are posted in the syllabus.
 
-**Late Policy**: Late homeworks will drop 1 point per day (1% of your class grade).
+- **Late Policy**: Late homeworks will lose 1 out of 10 points per day (1% of your final grade).
 
-**Platform**: We will use Gradescope for homework submission.
+- **Platform**: A submission script has been provided to submit your homeworks, please see the first homework [README](https://github.com/drc-cs/cs326/tree/main/homeworks/H01) page for more information.
 
-**Collaboration**: You are encouraged to work with your peers on homeworks. However, you must submit your own work. Copying and pasting code will be detected and penalized.
+- **Collaboration**: You are encouraged to work with your peers on homeworks. However, you must submit your own work. Copying and pasting code from other sources will be detected and penalized.
 
 | Homework | Due Date | Description |
 | --- | --- | --- |
