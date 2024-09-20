@@ -33,8 +33,10 @@ color: #4E2A84;
 
 .backgrounds {
   background-color: #ffffff;
-  background-image: url("https://storage.googleapis.com/slide_assets/background_shape.png");
-  background-size: 100% 100%;
+  background-image: url("https://storage.googleapis.com/slide_assets/background_shape.svg");
+  background-size: auto 100%;
+  background-position: left-top;
+  background-repeat: no-repeat;
 }
 
 .backgrounds::after {
