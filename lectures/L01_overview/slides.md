@@ -200,7 +200,7 @@ If you follow along with the lectures and homeworks, you will be well-prepared. 
 ### Homeworks
 
 - Do not exchange code fragments on any assignments.
-- Do not copy solutions from any source, including the web or previous MSAI 339 students.
+- Do not copy solutions from any source, including the web or previous CS 326 students.
 - You cannot upload / sell your assignments to code sharing websites.
 
 ### Group project
