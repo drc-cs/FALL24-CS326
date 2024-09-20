@@ -12,40 +12,24 @@ revealOptions:
   <div class="c1 col-centered">
   <div style="font-size: 0.8em; left: 0; width: 70%; position: absolute;">
 
-  # Introduction to the Data Science Pipeline
-  ## L.01 | Overview & Logistics!
+  # Introduction to Data Science Pipelines
+  ## L.01 | Overview & Logistics
 
   </div>
   </div>
   <div class="c2 col-centered" style = "bottom: 0; right: 0; width: 80%; padding-top: 30%">
+  
   <iframe src="https://lottie.host/embed/bd6c5b65-d724-4f97-882c-40f58367ea38/BIKhZdSeqW.json" height="100%" width = "100%"></iframe>
   </div>
 </div>
 
 <!--s-->
 
-## What is Data Science?
-
-<div class = "col-wrapper">
-  <div class="c1 col-centered" style = "width: 50%; align-items: center;">
-    Data Science sits at the intersection of computer science, statistics, and domain expertise. It is the process of extracting knowledge and insights from data.
-  </div>
-  <div class="c2 col-centered" style = "width: 50%; align-items: center; text-align: center;">
-    <div>
-    <img src="https://cdn-images-1.medium.com/max/800/1*MuglQTETZNJCRp1iceE7-Q.png">
-    <p><span style="font-size: 0.4em"> © Steven Geringer </span></p>
-    </div>
-  </div>
-</div>
-
-<!--s-->
-
-
 <div class = "col-wrapper">
   <div class="c1 col-centered">
   <div style="font-size: 0.8em; left: 0; width: 70%; position: absolute;">
 
-  # Welcome to MSAI 339.
+  # Welcome to CS 326.
   ## Please check in using PollEverywhere.
   Scan the QR code or go to [pollev.com/NUCS](https://pollev.com/NUCS)
 
@@ -56,18 +40,30 @@ revealOptions:
   </div>
 </div>
 
+<!--s-->
+
+## Data Science | Introduction
+
+
+Data Science sits at the intersection of computer science, statistics, and domain expertise. It is the process of extracting knowledge and insights from data.
+
+<div class="col-centered" style="flex-direction: row; height: 70%">
+<img src="https://images.ctfassets.net/piwi0eufbb2g/5Hdeb5PTf26EFdny0gZK3H/e47cbc2744c334ffefa58c5160e3b2d3/what_data_science_.jpg">
+<p style="text-align: center; font-size: 0.5em; color: grey;">Topcoder 2020</p>
+</div>
 
 <!--s-->
 
-## What is Data Science?
+## Data Science | Structure
 
+1. Data Source
+2. Data Exploration
+3. Data Preprocessing
+4. Data Modeling
+5. Data Interpretation
+6. Data Action
 
-  Data Science sits at the intersection of computer science, statistics, and domain expertise. It is the process of extracting knowledge and insights from data.
-
-<div style="text-align:center">
-<img src="https://cdn-images-1.medium.com/max/800/1*MuglQTETZNJCRp1iceE7-Q.png">
-<p><span style="font-size: 0.4em"> © Steven Geringer </span></p>
-</div>
+CS 326 will cover the **fundamentals** of data science. We will go for breadth, but you will be encouraged throughout the quarter to go into depth.
 
 <!--s-->
 
@@ -124,69 +120,6 @@ You may miss up two lectures without penalty. After that, you will lose 1% of yo
 
 <!--s-->
 
-
-## What is a Data Science Pipeline?
-
-1. Data Source
-2. Data Exploration
-3. Data Preprocessing
-4. Data Modeling
-5. Data Interpretation
-6. Data Action
-
-CS 326 will cover the **fundamentals** of each step of the data science pipeline. We will go for breadth, but you will be encouraged throughout the quarter to go into depth.
-
-<!--s-->
-
-## Course Resources
-
-Both Canvas and GitHub will be used extensively throughout this course.
-
-<div class = "col-wrapper">
-<div class="c1" style = "width: 50%">
-
-[Canvas](https://canvas.northwestern.edu/courses/217294)
-  - Syllabus (with links!)
-  - Announcements
-  - Grades
-  - Discussion threads
-  - Panopto recordings
-  - Homework assignments
-  - Project assignments
-
-</div>
-<div class="c2" style = "width: 50%">
-
-[GitHub Repository](https://github.com/drc-cs/FALL24-CS326)
-  - Syllabus (with links!)
-  - Lecture slides
-  - Homework assignments
-
-</div>
-</div>
-
-<!--s-->
-
-
-## Lecture Breakdown
-
-Lectures will be broken down into theory and applications. Attendance at lectures is mandatory and in your best interests! Homework will be assigned at the end of each lecture.
-
-| Component | Duration | Description |
-| --- | --- | --- |
-| Lecture | 55 minutes | Theoretical Foundations |
-| Break | 5 minutes | ~ |
-| Homework Lab | 20 minutes | Application and Practice |
-
-
-<!--s-->
-
-## Attendance
-
-Attendance is mandatory. You may miss up two lectures without penalty. After that, you will lose 1% of your final grade for each additional missed lecture without a valid excuse.
-
-<!--s-->
-
 ## Grading
 
 There is a high emphasis on the practical application of the concepts covered in this course. 
@@ -226,10 +159,15 @@ Homeworks are designed to reinforce the concepts covered in lecture. They will b
 
 - **Late Policy**: Late homeworks will lose 1 out of 10 points per day (1% of your final grade).
 
-- **Platform**: A submission script has been provided to submit your homeworks, please see the first homework [README](https://github.com/drc-cs/cs326/tree/main/homeworks/H01) page for more information.
+- **Platform**: A submission script has been provided to submit your homeworks. Today we will run through an example of how to submit your first homework assignment.
 
 - **Collaboration**: You are encouraged to work with your peers on homeworks. However, you must submit your own work. Copying and pasting code from other sources will be detected and penalized.
 
+<!--s-->
+
+## LLMs (The Talk)
+
+<iframe src="https://lottie.host/embed/e7eb235d-f490-4ce1-877a-99114b96ff60/OFTqzm1m09.json" height = "100%" width = "100%"></iframe>
 
 <!--s-->
 
@@ -251,22 +189,18 @@ Collective ambition and equal contribution is rewarded! A rubric will be posted 
 
 ## Quiz
 
-There will be one quiz at the end of this course. 
+There will be one quiz at the end of this course. The quiz will cover the theoretical and practical concepts covered in the course. You will have 75 minutes to complete it. 
 
-- **Coverage**: The quiz will cover the theoretical and practical concepts covered in the course through a mini-project challenge that you will have 75 minutes to complete. 
-
-- **Format**: The challenge will be styled in a format similar to an industry data science coding interview.
-
-If you follow along with the lectures and homeworks, you will be well-prepared for the quiz. The goal is to give you practical code-interview style experience, not trip you up on small details.
+If you follow along with the lectures and homeworks, you will be well-prepared. The goal is to give you practical experience, not trip you up on small details.
 
 <!--s-->
 
-## Academic Integrity [[link]](https://www.northwestern.edu/provost/policies-procedures/academic-integrity/index.html)
+## Academic Integrity [&#x1F517;](https://www.northwestern.edu/provost/policies-procedures/academic-integrity/index.html)
 
 ### Homeworks
 
 - Do not exchange code fragments on any assignments.
-- Do not copy solutions from any source, including the web or previous CS 326 students.
+- Do not copy solutions from any source, including the web or previous MSAI 339 students.
 - You cannot upload / sell your assignments to code sharing websites.
 
 ### Group project
@@ -327,7 +261,7 @@ Due: 10.01.2024
 
 We will be using Python for this course. Conda is a package manager that will help us install Python and other packages. 
 
-Link: https://docs.conda.io/en/latest/miniconda.html
+Don't have <span class="code-span">conda</span> installed? [[click-here]](https://docs.conda.io/en/latest/miniconda.html)
 
 <!--s-->
 
@@ -337,7 +271,7 @@ We will be using a public GitHub repository for this course. Enter the following
 
 
 ```bash
-git clone https://github.com/drc-cs/FALL2024-CS326.git
+git clone https://github.com/drc-cs/FALL24-CS326.git
 cd FALL2024-CS326
 ```
 
@@ -356,7 +290,7 @@ Don't have <span class="code-span">git</span> installed? [[click-here]](https://
 
 All demonstrations will be in VSCode, which is a popular IDE. You're welcome to use any IDE you want, but we will be best equipped to help you if you use VSCode.
 
-Installation link: https://code.visualstudio.com/
+Don't have <span class="code-span">visual studio code</span> installed? [[click-here]](https://code.visualstudio.com/)
 
 After installing VSCode, you will need to install the Python extension: 
 
@@ -376,7 +310,7 @@ Add the <span class="code-span">code</span> command to your PATH so you can open
 Restart your terminal and open the cloned repository in VSCode using the following command:
 
 ```bash
-code cs326
+code FALL24-CS326
 ```
 
 You should see the following folders:
@@ -443,6 +377,13 @@ You can save your username and password as environment variables so you don't ha
 export AG_USERNAME="your_username"
 export AG_PASSWORD="your_password"
 ```
+<!--s-->
+
+## H.01 | Homework Grading
+
+The highest score will be recorded, so long as it is submitted before the deadline! You have 3 attempts for every homework. 
+
+Late homeworks will be penalized 10% per day, which amounts to ~1% of your final grade.
 
 <!--s-->
 
