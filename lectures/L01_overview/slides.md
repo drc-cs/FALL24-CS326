@@ -31,7 +31,7 @@ revealOptions:
 
   # Welcome to CS 326.
   ## Please check in using PollEverywhere.
-  Scan the QR code or go to [pollev.com/NUCS](https://pollev.com/NUCS)
+  Scan the QR code or go to [pollev.com/nucs](https://pollev.com/nucs)
 
   </div>
   </div>
@@ -157,7 +157,7 @@ Homeworks are designed to reinforce the concepts covered in lecture. They will b
 
 - **Due**: Homework due dates are posted in the syllabus.
 
-- **Late Policy**: Late homeworks will lose 1 out of 10 points per day (1% of your final grade).
+- **Late Policy**: Late homeworks will lose 1 out of 8 points per day (1% of your final grade).
 
 - **Platform**: A submission script has been provided to submit your homeworks. Today we will run through an example of how to submit your first homework assignment.
 
