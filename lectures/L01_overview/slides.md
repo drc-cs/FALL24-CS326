@@ -359,7 +359,7 @@ Let's do the first homework together.
 
 You will submit your homework using the provided submission script. 
 
-But first, you need a username (your **northwestern** email) and password!
+But first, you need a username (your **northwestern** email e.g. JaneDoe2024@u.northwestern.edu) and password!
 
 ```bash
 python account.py --create-account
