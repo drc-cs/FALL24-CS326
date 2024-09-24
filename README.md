@@ -1,6 +1,6 @@
 # Introduction to Data Science Pipelines (CS 326)
 
-[[Github Repository]](https://github.com/drc-cs/fall2024-cs326/)
+[[Github Repository]](https://github.com/drc-cs/fall24-cs326/)
 
 This course aims to cover data science theory and tools for obtaining, cleaning, visualizing, modeling, and interpreting data. Most of the tools introduced in this course will be based on Python, although the theory can be applied to any programming language. Ethical data science will be consistently reinforced. As an outcome of this course, students should be able to independently derive insights from real-life datasets.
 
