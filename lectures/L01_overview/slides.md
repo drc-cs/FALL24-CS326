@@ -272,7 +272,7 @@ We will be using a public GitHub repository for this course. Enter the following
 
 ```bash
 git clone https://github.com/drc-cs/FALL24-CS326.git
-cd FALL2024-CS326
+cd FALL24-CS326
 ```
 
 We will be using a conda environment (cs326) for this course. 
