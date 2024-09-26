@@ -11,7 +11,7 @@ revealOptions:
   <div class="c1 col-centered">
   <div style="font-size: 0.8em; left: 0; width: 70%; position: absolute;">
 
-  # Data Science
+  # Introduction to Data Science Pipelines
   ## L.02 | Data Sources
 
   </div>
@@ -30,7 +30,7 @@ revealOptions:
 
   # Welcome to CS 326.
   ## Please check in using PollEverywhere.
-  Scan the QR code or go to [pollev.com/NUCS](https://pollev.com/NUCS)
+  Scan the QR code or go to [pollev.com/nucs](https://pollev.com/nucs)
 
   </div>
   </div>
@@ -38,6 +38,8 @@ revealOptions:
   <img src="https://storage.googleapis.com/slide_assets/PollEverywhere.png" width="50%">
   </div>
 </div>
+
+<!--s-->
 
 <div class = "header-slide">
 
@@ -134,7 +136,7 @@ response = client.chat.completions.create(
 
 ## Data Sources | Scraping, Web Crawling
 
-Web crawling is a free way to collect data from the internet. But be **cautious**. Many websites have terms of service that prohibit scraping, and you can easily overstep those.
+Web crawling is a free way to collect data from the internet. But be **cautious**. Many websites have terms of service that prohibit scraping, and you can easily overstep those and find yourself in legal trouble.
 
 Examples of packages built for webscraping in Python include <span class="code-span">beautifulsoup</span> and <span class="code-span">scrapy</span>.
 
@@ -162,7 +164,7 @@ df = pd.read_csv('survey_data.csv')
 <!--s-->
 
 ## Data Sources | BYOD (Bring Your Own Data)
-Collecting data yourself is common in academia and industry. But be careful!
+Collecting data yourself is common in academia and industry. But you need to be careful.
 
 <div class = "col-wrapper">
 <div class = "c1" style = "width: 70%;">
@@ -489,7 +491,7 @@ Canvas Assignment Link: P.01
 ## P.01 | Creating a Group
 
 ### **Group Creation**
-Please form groups of 6. You can create a group on Canvas using this [[link]].
+Please form groups of 5. You can create a group on Canvas using this [link](https://canvas.northwestern.edu/courses/217294/groups#).
 
 1. Click on the "People" tab on the left-hand side.
 2. Click on the "Groups" tab.
@@ -507,7 +509,13 @@ I suggest creating a group chat on Slack, Discord, or WhatsApp. This will make i
 
 **One person** per group should submit the project proposal using the text editor on Canvas. Please follow the format provided on canvas. **P.01 is due on 10.08.2024**.
 
-Your proposal should include:
+A few (very general) guidelines:
+
+1. The simplest project structure is a classification or regression task.
+2. Avoid recommendation models. 
+3. Ensure you cover the 6 data science pipeline steps.
+
+Your P.01 submission should include:
 
 1. **Team Name**: The name of your team.
 2. **Team Members**: The names of your team members.
