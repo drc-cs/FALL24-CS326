@@ -117,13 +117,14 @@ Collective ambition and equal contribution is rewarded.
 
 There will be one quiz at the end of this course. The quiz will cover the theoretical and practical concepts covered in the lectures and homeworks. If you follow along with the lectures and homeworks, you will be well-prepared for the quiz.
 
+
 ------
 
 ## Academic Integrity [[link]](https://www.northwestern.edu/provost/policies-procedures/academic-integrity/index.html)
 
 Individual homeworks
 - Do not exchange code fragments on any assignments
-- Do not copy solutions from any source, including the web or previous CS 326 students
+- Do not copy solutions from any source, including the web or previous MSAI339 students
 - You cannot upload / sell your assignments to code sharing websites
 
 Group project
@@ -132,7 +133,7 @@ Group project
 
 ------
 
-## Accommodations
+## Accommodations [[link]](https://www.registrar.northwestern.edu/registration-graduation/northwestern-university-syllabus-standards.html#accessibility)
 
 Any student requesting accommodations related to a disability or other condition is required to register with AccessibleNU and provide professors with an accommodation notification from AccessibleNU, preferably within the first two weeks of class. 
 
@@ -140,7 +141,7 @@ All information will remain confidential.
 
 ------
 
-## Mental Health
+## Mental Health [[link]](https://www.registrar.northwestern.edu/registration-graduation/northwestern-university-syllabus-standards.html#wellness-and-health)
 
 If you are feeling distressed or overwhelmed, please reach out for help. Students can access confidential resources through the Counseling and Psychological Services (CAPS), Religious and Spiritual Life (RSL) and the Center for Awareness, Response and Education (CARE).
 
