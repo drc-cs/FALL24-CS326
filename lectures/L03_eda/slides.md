@@ -208,6 +208,7 @@ The number of peaks in the distribution.
 <div class="c2 col-centered" style = "width: 50%;">
 
 <img src="https://treesinspace.com/wp-content/uploads/2016/01/modes.png?w=584" width="100%">
+<p style="text-align: center; font-size: 0.6em; color: grey;">Trees In Space 2016</p>
 
 </div>
 
@@ -258,6 +259,7 @@ How can we tell if our data is normally distributed?
 <div class="c2 col-centered" style = "width: 50%;">
 
 <img src="https://miro.medium.com/v2/format:webp/0*lsbu809F5gOZrrKX" width="100%">
+<p style="text-align: center; font-size: 0.6em; color: grey;">Khandelwal 2023</p>
 
 </div>
 
