@@ -368,7 +368,7 @@ python account.py --create-account
 Once you have a username and password, you can submit your completed homework. You should receive your score or feedback within a few seconds, but this may take longer as the homeworks get more involved.
 
 ```bash
-python submit.py --homework H.01/hello_world.py --username your_username --password your_password 
+python submit.py --homework H01/hello_world.py --username your_username --password your_password 
 ```
 
 You can save your username and password as environment variables so you don't have to enter them every time (or expose them in your notebooks)!
