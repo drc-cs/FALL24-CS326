@@ -463,7 +463,7 @@ $ S = \frac{\sigma{\text(Milk, Diaper, Beer)}}{|T|} = \frac{2}{5} = 0.4 $
 
 $ C = \frac{S(Milk, Diaper, Beer)}{S(Milk, Diaper)} = \frac{0.4}{0.6} = 0.67$
 
-$ L = \frac{S(Milk, Diaper, Beer)}{S(Milk)S(Diaper)} = \frac{0.4}{0.8*0.8} = 0.625$
+$ L = \frac{S(Milk, Diaper, Beer)}{S(Milk, Diaper)S(Beer)} = \frac{0.4}{0.6*0.6} = 1.11 $
 
 
 <!--s-->
