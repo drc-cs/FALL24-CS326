@@ -46,6 +46,7 @@ revealOptions:
 - P.01 is due tonight @ 11:59PM.
 
 - H.02 will be released today.
+  - Due in 1 week (10.15.2024 @ 11:59PM).
 
 - Office hours from 2:30P - 3:20P today (3510 Mudd).
 
