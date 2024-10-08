@@ -137,7 +137,7 @@ The null hypothesis ($H_0$) is a statement that there is no difference between g
 
 **Question:** You have data on the average time it takes for two groups of students to complete a test. Group A has an average time of 45 minutes +/- 5 minutes, while Group B has an average time of 50 minutes +/- 5 minutes. You want to determine if there is a significant difference between the two groups. 
 
-**How would you rate your percent confidence on the answer to Question 1?**
+**What percentage confidence would you give your answer to Question 1.1.0?**
 
 <div class='col-wrapper' style = 'display: flex; align-items: top; margin-top: 2em; margin-left: -1em;'>
 <div class='c1' style = 'width: 60%; display: flex; align-items: center; flex-direction: column; margin-top: 2em'>
@@ -196,7 +196,7 @@ The following are some hypothesis tests used in statistics:
 
 **Question:** You have data on the average time it takes for two groups of students to complete a test. Group A has an average time of 45 minutes +/- 5 minutes, while Group B has an average time of 50 minutes +/- 5 minutes. You want to determine if there is a significant difference between the two groups. 
 
-**How would you rate your percent confidence on the answer to Question 1?**
+**What percentage confidence would you give your answer to Question 1.2.0?**
 
 <div class='col-wrapper' style = 'display: flex; align-items: top; margin-top: 2em; margin-left: -1em;'>
 <div class='c1' style = 'width: 60%; display: flex; align-items: center; flex-direction: column; margin-top: 2em'>
