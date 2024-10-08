@@ -47,7 +47,7 @@ revealOptions:
 
 - H.02 will be released today.
 
-- Office hours from 2:30P - 3:20P today.
+- Office hours from 2:30P - 3:20P today (3510 Mudd).
 
 <!--s-->
 
@@ -81,7 +81,7 @@ revealOptions:
   <div style="font-size: 0.8em; left: 0; width: 50%; position: absolute;">
 
   # Intro Poll
-  ## On a scale of 1-5, what is your understanding of hypothesis testing?
+  ## On a scale of 1-5, what is your comfort level with hypothesis testing?
   Scan the QR code or go to [pollev.com/nucs](https://pollev.com/nucs)
 
   </div>
@@ -669,7 +669,7 @@ To understand the impact of tagging a friend during a trial period, a structured
   <div style="font-size: 0.8em; left: 0; width: 50%; position: absolute;">
 
   # Exit Poll
-  ## On a scale of 1-5, what is your understanding of hypothesis testing?
+  ## On a scale of 1-5, what is your comfort level with hypothesis testing?
   Scan the QR code or go to [pollev.com/nucs](https://pollev.com/nucs)
 
   </div>
