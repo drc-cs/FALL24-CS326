@@ -40,6 +40,14 @@ revealOptions:
 
 <!--s-->
 
+## Announcements
+
+- H.02 is due on 10.15.2024 @ 11:59PM.
+
+- P.02 details will be shared at the end of the lecture today.
+
+<!--s-->
+
 ## Feedback Summary
 
 ### More Practical Applications
@@ -613,9 +621,8 @@ For P.02, you are expected to do an elevator pitch style presentation. This mean
 3. Data Preprocessing
 4. Data Modeling
 5. Data Interpretation
-6. Data Action
 
-You should have **one group member and one slide per topic**. Everyone needs to speak. You will each be graded on your ability to communicate your domain of the project effectively and concisely. Your team will have this presentation on 10.31 or 11.05.
+You should have **one slide per topic**. Everyone needs to speak. You will each be graded on your ability to communicate your domain of the project effectively and concisely. Your team will have this presentation on 10.31 or 11.05.
 
 <!--s-->
 
