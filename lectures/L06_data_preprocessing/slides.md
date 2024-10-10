@@ -13,7 +13,6 @@ revealOptions:
 
   # Introduction to Data Science Pipelines
   ## L.06 | Data Preprocessing
-  🚨 *Early Release Slides: Subject to Change* 🚨
 
   </div>
   </div>
