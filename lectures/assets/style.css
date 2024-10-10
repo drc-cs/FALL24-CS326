@@ -40,7 +40,7 @@ color: #4E2A84;
 }
 
 .backgrounds::after {
-content: "Northwestern University | CS 326 | Do Not Share"; /* The text to display */
+content: "Northwestern University | CS 326 | © NUCS 2024 | Do Not Share"; /* The text to display */
 position: absolute; /* Position it absolutely within the .backgrounds element */
 bottom: 10px; /* Distance from the bottom, adjust as needed */
 left: 50%; /* Center horizontally by setting the left to 50% */
@@ -105,7 +105,10 @@ color: #6f40b5;
 .reveal h3 {
   font-size: 1em;
   max-width: 100%;
-  padding-top: 0.3em;
+  padding-top: 0.4em;
+  padding-bottom: 0.5em;
+  margin-top: 0.4em;
+  margin-bottom: 0.5em;
   color: #2A3384;
 }
 
