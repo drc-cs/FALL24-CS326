@@ -43,7 +43,8 @@ revealOptions:
 
 ## Announcements
 
-- H.02 is due on 10.15.2024 @ 11:59PM.
+- H.02 is due on tonight @ 11:59PM.
+  - 72% of you have already submitted! 🎉
 
 - P.02 will take place either 10.31 or 11.05. Please send me an email if you have an unavoidable conflict and I will try and accomodate.
 
@@ -204,11 +205,15 @@ The principle behind nearest neighbor methods is to find a predefined number of 
 Given a new instance $ x' $, KNN classification computes the distance between $ x' $ and all other examples. The k closest points are selected and the predicted label is determined by majority vote.
 
 <div class = "col-wrapper">
-<div class="c1" style = "width: 50%; font-size: 0.8em;">
+<div class="c1" style = "width: 50%; font-size: 0.7em;">
 
 ### Euclidean Distance
 
 `$ d(x, x') =\sqrt{\sum_{i=1}^n (x_i - x'_i)^2} $`
+
+### Manhattan Distance
+
+`$ d(x, x') = \sum_{i=1}^n |x_i - x'_i| $`
 
 ### Cosine Distance 
 
@@ -341,9 +346,9 @@ The objective of linear regression is to minimize the cost function $ J(\beta) $
 <div class = "col-wrapper">
 <div class="c1" style = "width: 50%">
 
-$$ J(\beta) = \frac{1}{2m} \sum_{i=1}^m (\hat{y}_i - y_i)^2 $$
+$$ J(\beta) = \frac{1}{2m} \sum_{i=1}^m (\widehat{y}_i - y_i)^2 $$
 
-Where $ \hat{y} = X\beta $ is the prediction. This is most easily solved by finding the normal equation solution:
+Where $ \widehat{y} = X\beta $ is the prediction. This is most easily solved by finding the normal equation solution:
 
 $$ \beta = (X^T X)^{-1} X^T y $$
 
@@ -388,11 +393,11 @@ To evaluate a regression model, we can use metrics such as mean squared error (M
 
 **Mean Squared Error (MSE)**: The mean of the squared errors. Punishes large errors more than small errors.
 
-$$ MSE = \frac{1}{m} \sum_{i=1}^m (\hat{y}_i - y_i)^2 $$
+$$ MSE = \frac{1}{m} \sum_{i=1}^m (\widehat{y}_i - y_i)^2 $$
 
 **Mean Absolute Error (MAE)**: The mean of the absolute errors. Less sensitive to outliers than MSE.
 
-$$ MAE = \frac{1}{m} \sum_{i=1}^m |\hat{y}_i - y_i| $$
+$$ MAE = \frac{1}{m} \sum_{i=1}^m |\widehat{y}_i - y_i| $$
 
 **Mean Absolute Percentage Error (MAPE)**: The mean of the absolute percentage errors. Useful for comparing models with different scales.
 
@@ -400,7 +405,7 @@ $$ MAPE = \frac{1}{m} \sum_{i=1}^m \left| \frac{\widehat{y}_i - y_i}{y_i} \right
 
 **R-squared**: The proportion of the variance in the dependent variable that is predictable from the independent variables.
 
-$$ R^2 = 1 - \frac{\sum(\hat{y}_i - y_i)^2}{\sum(\bar{y} - y_i)^2} $$
+$$ R^2 = 1 - \frac{\sum(\widehat{y}_i - y_i)^2}{\sum(\bar{y} - y_i)^2} $$
 
 </div>
 
@@ -427,11 +432,11 @@ Regularization is a technique used to prevent overfitting by adding a penalty te
 
 **L1 Regularization**: Adds the absolute value of the coefficients to the cost function. This effectively performs feature selection by setting some coefficients to zero.
 
-`$$ J(\beta) = \frac{1}{2m} \sum_{i=1}^m (\hat{y}_i - y_i)^2 + \lambda \sum_{j=1}^n |\beta_j| $$`
+`$$ J(\beta) = \frac{1}{2m} \sum_{i=1}^m (\widehat{y}_i - y_i)^2 + \lambda \sum_{j=1}^n |\beta_j| $$`
 
 **L2 Regularization**: Adds the square of the coefficients to the cost function. This shrinks the coefficients, but does not set them to zero. This is useful when all features are assumed to be relevant.
 
-`$$ J(\beta) = \frac{1}{2m} \sum_{i=1}^m (\hat{y}_i - y_i)^2 + \lambda \sum_{j=1}^n \beta_j^2 $$`
+`$$ J(\beta) = \frac{1}{2m} \sum_{i=1}^m (\widehat{y}_i - y_i)^2 + \lambda \sum_{j=1}^n \beta_j^2 $$`
 
 <!--s-->
 
