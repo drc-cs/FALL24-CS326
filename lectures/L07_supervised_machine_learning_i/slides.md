@@ -13,7 +13,7 @@ revealOptions:
 
   # Introduction to Data Science Pipelines
   ## L.07 | Supervised Machine Learning I
-  ### KNN and Logistic Regression
+  ### KNN, Linear Regression, and Logistic Regression
 
   </div>
   </div>
