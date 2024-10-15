@@ -184,7 +184,7 @@ X_val, X_test, y_val, y_test = train_test_split(X_temp, y_temp, test_size=0.5, r
 
 <div class="header-slide">
 
-# K-Nearest Neighbors (KNN) Classification
+# K-Nearest Neighbors (KNN)
 
 </div>
 
@@ -442,7 +442,7 @@ Regularization is a technique used to prevent overfitting by adding a penalty te
 
 <div class="header-slide">
 
-# Logistic Regression with Gradient Descent
+# Logistic Regression
 
 </div>
 
