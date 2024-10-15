@@ -152,3 +152,9 @@ If you are feeling distressed or overwhelmed, please reach out for help. Student
 **Joshua D'Arcy (Instructor)**: joshua.darcy@northwestern.edu <br>
 **Lingzhi Wang (TA)**: LingzhiWang2025@u.northwestern.edu <br>
 **Nathan Mo (PM)**: nmf0887@ads.northwestern.edu
+
+-----
+
+## Office Hours
+
+Office hours are held in Mudd 3510 from 2:30 - 3:15PM on Tuesdays.
