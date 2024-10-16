@@ -204,7 +204,7 @@ def logistic_regression_gradient_descent(X: np.array, y: np.array,
     # Add the bias term using np.hstack.
     X = np.hstack([np.ones((X.shape[0], 1)), X])
 
-    # 1. Initialize the weights with zeros. np.zeros is your friend here!
+    # 1. Initialize the weights with zeros. np.zeros is your friend here! 
     weights = "replace_this_with_np.zeros()"
 
     # For each iteration, update the weights.
