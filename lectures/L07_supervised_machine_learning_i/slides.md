@@ -446,7 +446,6 @@ Regularization is a technique used to prevent overfitting by adding a penalty te
 
 </div>
 
-
 <!--s-->
 
 ## Logistic Regression | Concept
