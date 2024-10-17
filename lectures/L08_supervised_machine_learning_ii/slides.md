@@ -401,18 +401,20 @@ Involves predicting multiple labels for a given sample.
 
 ## P.02 (Elevator Pitch)
 
+P.02 will be an elevator-pitch style format. Each team will need to be here for their timeslot, but if you're not presenting you do not have to be here. Please use this time to work on your project & homeworks!
+
 <div class = "col-wrapper">
 <div class="c1" style = "width: 50%;">
 
 ### 10.31.2024
 
-- $$$ 
-- BuyingChicago
-- good name
-- Group [placeholder]
-- Group 7
-- Group 10086
-- Group A
+- $$$ [11:00 - 11:10]
+- BuyingChicago [11:10 - 11:20]
+- good name [11:20 - 11:30]
+- Group [placeholder] [11:30 - 11:40]
+- Group 7 [11:40 - 11:50]
+- Group 10086 [11:50 - 12:00]
+- Group A [12:00 - 12:10]
 
 </div>
 
@@ -420,12 +422,12 @@ Involves predicting multiple labels for a given sample.
 
 ### 11.05.2024
 
-- group e
-- Group ZERO
-- hi
-- Periwinkle
-- The Data Miners
-- the elders
+- group e [11:00 - 11:10]
+- Group ZERO [11:10 - 11:20]
+- hi [11:20 - 11:30]
+- Periwinkle [11:30 - 11:40]
+- The Data Miners [11:40 - 11:50]
+- the elders [11:50 - 12:00]
 
 </div>
 </div>
