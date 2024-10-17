@@ -14,8 +14,6 @@ revealOptions:
   # Introduction to Data Science Pipelines
   ## L.08 | Supervised Machine Learning II
 
-  🚨 *warning: early release slides, subject to change* 🚨
-
   </div>
   </div>
   <div class="c2 col-centered" style = "bottom: 0; right: 0; width: 80%; padding-top: 30%">
