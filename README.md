@@ -24,8 +24,8 @@ This schedule is tentative and may change as the course progresses. Click on lin
 | 10 | 10.24.2024 | [Unsupervised Machine Learning](https://drc-cs.github.io/FALL24-CS326/lectures/L10_unsupervised_machine_learning/#/) | [H.03](https://github.com/drc-cs/FALL24-CS326/tree/main/homeworks/H03) | |
 | 11 | 10.29.2024 | Recommendation Modeling | | |
 | 12 | 10.31.2024 | Project 1-on-1 | | P.02 |
-| 13 | 11.05.2024 | Project 1-on-1 | H.04 | |
-| 14 | 11.07.2024 | Time Series Analysis | | |
+| 13 | 11.05.2024 | Project 1-on-1 | | |
+| 14 | 11.07.2024 | Time Series Analysis | H.04 | |
 | 15 | 11.12.2024 | Natural Language Processing <br> *Text Preprocessing* | | |
 | 16 | 11.14.2024 | Natural Language Processing <br> *Text Generation* | | |
 | 17 | 11.19.2024 | Quiz Review | H.05 | |
