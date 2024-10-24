@@ -201,7 +201,7 @@ To determine the distance between two points (required for clustering), we need 
 
 4. Triangle inequality: $d(x, y) + d(y, z) \geq d(x, z)$
     - Otherwise, the distance between two points could be shorter than the sum of the distances between the points and a third point.
-    - If the distance between Bob and Alice is 5 years and the distance between Alice and Charlie is 5 years, the distance between Bob and Charlie should be at least 5 years.
+    - If the distance between Bob and Alice is 5 years and the distance between Alice and Charlie is 5 years, then the distance between Bob and Charlie should be at most 10 years. We don’t want shortcuts in our triangles.
 
 </div>
 
