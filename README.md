@@ -25,11 +25,11 @@ This schedule is tentative and may change as the course progresses. Click on lin
 | 11 | 10.29.2024 | Recommendation Modeling | | |
 | 12 | 10.31.2024 | Project 1-on-1 | | P.02 |
 | 13 | 11.05.2024 | Project 1-on-1 | | |
-| 14 | 11.07.2024 | Time Series Analysis | H.04 | |
-| 15 | 11.12.2024 | Natural Language Processing <br> *Text Preprocessing* | | |
+| 14 | 11.07.2024 | Time Series Analysis | | |
+| 15 | 11.12.2024 | Natural Language Processing <br> *Text Preprocessing* | H.04 | |
 | 16 | 11.14.2024 | Natural Language Processing <br> *Text Generation* | | |
-| 17 | 11.19.2024 | Quiz Review | H.05 | |
-| 18 | 11.21.2024 | Storytelling and Ethics | | |
+| 17 | 11.19.2024 | Quiz Review | | |
+| 18 | 11.21.2024 | Storytelling and Ethics | H.05 | |
 | 19 | 11.26.2024 | Quiz | | |
 | 20 | 12.03.2024 | Project Presentation | | P.03 - P.04 |
 | 21 | 12.05.2024 | Project Presentation  | | P.03 |
