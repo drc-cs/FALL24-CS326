@@ -45,6 +45,9 @@ revealOptions:
 
 - H.03 is due tonight @ 11:59pm.
 
+- Spread out homework pacing.
+  - H.04 will now be due 11.12, and H.05 will now be due 11.21.
+
 
 <!--s-->
 
