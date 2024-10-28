@@ -430,7 +430,7 @@ $$ R^2 = 1 - \frac{\sum(\widehat{y}_i - y_i)^2}{\sum(\bar{y} - y_i)^2} $$
 
 Regularization is a technique used to prevent overfitting by adding a penalty term to the cost function. The two most common types of regularization are L1 (Lasso) and L2 (Ridge) regularization.
 
-**L1 Regularization**: Adds the absolute value of the coefficients to the cost function. This effectively performs feature selection by setting some coefficients to zero.
+**L1 Regularization**: Adds the absolute value of the coefficients to the cost function. This effectively performs feature selection by pushing some coefficients towards zero.
 
 `$$ J(\beta) = \frac{1}{2m} \sum_{i=1}^m (\widehat{y}_i - y_i)^2 + \lambda \sum_{j=1}^n |\beta_j| $$`
 
