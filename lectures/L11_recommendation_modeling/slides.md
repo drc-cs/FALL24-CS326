@@ -42,6 +42,18 @@ revealOptions:
 
 ## Announcements
 
+### H.03 Grading
+
+- H.03 Free Response will be graded in ~ 1 week.
+
+### H.04 Release
+
+- H.04 will be released Tuesday, November 5.
+
+### P.02
+
+- P.02 will take place in-person on October 31 and November 5.
+
 
 <!--s-->
 
@@ -197,7 +209,6 @@ Evaluation of content-based filtering depends on the application. Ideally, you w
 <p style="text-align: center; font-size: 0.6em; color: grey;">Optimizely, 2024</p>
 </div>
 
-
 <!--s-->
 
 ## Content-Based Filtering | Pros and Cons
@@ -208,6 +219,28 @@ Evaluation of content-based filtering depends on the application. Ideally, you w
 | No need for data on other users | Limited to the item’s features |
 | Can recommend niche items | Can overfit to the user’s preferences |
 | Can provide explanations for recommendations | Cold-start problem |
+
+<!--s-->
+
+## Question | Content-Based Filtering
+
+Which of the following is an advantage of content-based filtering?
+
+
+<div class='col-wrapper' style = 'display: flex; align-items: top; margin-top: 2em; margin-left: -1em;'>
+<div class='c1' style = 'width: 60%; display: flex; align-items: center; flex-direction: column; margin-top: 2em'>
+<div style = 'line-height: 2em;'>
+&emsp;A. Easy to implement. <br>
+&emsp;B. No need for data on other users. <br>
+&emsp;C. Can recommend niche items. <br>
+&emsp;D. All of the above. <br>
+</div>
+</div>
+<div class='c2' style = 'width: 40%; display: flex; align-items: center; flex-direction: column;'>
+<img src='https://storage.googleapis.com/slide_assets/PollEverywhere.png' width='100%'>
+<a>poll.ev.com/nucs</a>
+</div>
+</div>
 
 <!--s-->
 
@@ -393,7 +426,7 @@ $$ Q = (P^T \cdot P + \lambda \cdot I)^{-1} \cdot P^T \cdot R $$
 
 <div style = "font-size: 0.6em;">
 
-\**Note: usually you will need to include a regularization term to prevent overfitting.*
+\**Note: You need to include the regularization term to prevent overfitting.*
 
 </div>
 
@@ -407,6 +440,26 @@ $$ Q = (P^T \cdot P + \lambda \cdot I)^{-1} \cdot P^T \cdot R $$
 | Can recommend items that are popular among similar users | Sparsity of the user-item matrix |
 
 <!--s-->
+
+## Question | Collaborative Filtering
+
+Which of the following is an advantage of **collaborative** filtering?
+
+
+<div class='col-wrapper' style = 'display: flex; align-items: top; margin-top: 2em; margin-left: -1em;'>
+<div class='c1' style = 'width: 70%; display: flex; align-items: center; flex-direction: column; margin-top: 2em'>
+<div style = 'line-height: 2em; font-size: 0.8em;'>
+&emsp;A. Can recommend very different items that the user has not seen before. <br>
+&emsp;B. Solves the cold-start problem for both users and items. <br>
+&emsp;C. No need for data on other users. <br>
+&emsp;D. All of the above. <br>
+</div>
+</div>
+<div class='c2' style = 'width: 30%; display: flex; align-items: center; flex-direction: column;'>
+<img src='https://storage.googleapis.com/slide_assets/PollEverywhere.png' width='100%'>
+<a>poll.ev.com/nucs</a>
+</div>
+</div>
 
 <div class="header-slide">
 
