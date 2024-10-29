@@ -42,10 +42,6 @@ revealOptions:
 
 ## Announcements
 
-### H.03 Grading
-
-- H.03 Free Response will be graded in ~ 1 week.
-
 ### H.04 Release
 
 - H.04 will be released Tuesday, November 5.
@@ -54,6 +50,9 @@ revealOptions:
 
 - P.02 will take place in-person on October 31 and November 5.
 
+### Office Hours
+
+- As updated in the [syllabus](https://github.com/drc-cs/FALL24-CS326), office hours are on Tuesdays from 2:30 - 3:15PM in Mudd 3510.
 
 <!--s-->
 
@@ -70,7 +69,7 @@ revealOptions:
   <div style="font-size: 0.8em; left: 0; width: 60%; position: absolute;">
 
   # Intro Poll
-  ## On a scale of 1-5, how confident are you with the following methods:
+  ## On a scale of 1-5, how confident are you with the following recommendation modeling methods?
 
   1. Content-Based Filtering
   2. Collaborative Filtering
@@ -187,17 +186,45 @@ Commonly, similarity is determined simply as the dot product between two vectors
 
 $$ \textbf{Similarity} = A \cdot B $$
 
-But exactly as represented by our KNN lecture, we can use different similarity metrics to calculate the similarity between two vectors. Some common similarity metrics include:
-
-- **Cosine Similarity**: Measures the cosine of the angle between two non-zero, numerical vectors.
-
-$$ \text{Cosine Similarity} = \frac{A \cdot B}{||A|| \cdot ||B||} $$
-
-- **Jaccard Similarity**: Measures the similarity between two sets, may be used for binary and categorical data.
-
-$$ \text{Jaccard Similarity} = \frac{|A \cap B|}{|A \cup B|} $$
+But exactly as represented by our KNN lecture, we can use different similarity metrics to calculate the similarity between two vectors.
 
 </div>
+
+<!--s-->
+
+## Content-Based Filtering | Similarity / Distance Metrics
+
+<div class = "col-wrapper">
+
+<div class="c1" style = "width: 50%;">
+
+### Euclidean Distance
+
+`$ d(x, x') =\sqrt{\sum_{i=1}^n (x_i - x'_i)^2} $`
+
+### Manhattan Distance
+
+`$ d(x, x') = \sum_{i=1}^n |x_i - x'_i| $`
+
+### **Cosine Distance**
+
+`$ d(x, x') = 1 - \frac{x \cdot x'}{||x|| \cdot ||x'||} $`
+
+</div>
+
+<div class="c2" style = "width: 50%;">
+
+### Jaccard Distance
+
+`$ d(x, x') = 1 - \frac{|x \cap x'|}{|x \cup x'|} $`
+
+### Hamming Distance
+
+`$ d(x, x') = \frac{1}{n} \sum_{i=1}^n x_i \neq x'_i $`
+
+</div>
+</div>
+
 <!--s-->
 
 ## Content-Based Filtering | Evaluation
@@ -215,10 +242,10 @@ Evaluation of content-based filtering depends on the application. Ideally, you w
 
 | Pros | Cons |
 | --- | --- |
-| Easy to implement | Limited to the user’s past preferences |
-| No need for data on other users | Limited to the item’s features |
-| Can recommend niche items | Can overfit to the user’s preferences |
-| Can provide explanations for recommendations | Cold-start problem |
+| Easy to implement. | Limited to the user’s past preferences. |
+| No need for data on other users. | Limited to the item’s features. |
+| Can recommend niche items. | Can overfit to the user’s preferences. |
+| Can provide explanations for recommendations. | Cold-start problem. |
 
 <!--s-->
 
@@ -309,7 +336,7 @@ User-User Collaborative Filtering is based on the idea that users who have agree
 
 ## Collaborative Filtering | Item-Item
 
-Item-Item Collaborative Filtering is based on the idea that users who each liked an item will like similar items. It is different from content-based filtering because it does not have anything to do with the item characteristics.
+Item-Item Collaborative Filtering is based on the idea that users who each liked an item will like similar items. It is **different** from content-based filtering because it does not have anything to do with the item characteristics.
 
 1. Create a User-Item Matrix that represents the user’s reviews of items.
 2. Find items that are often "grouped" together (Item-Item)
@@ -424,6 +451,14 @@ Where:
 $$ P = (Q^T \cdot Q + \lambda \cdot I)^{-1} \cdot Q^T \cdot R $$
 $$ Q = (P^T \cdot P + \lambda \cdot I)^{-1} \cdot P^T \cdot R $$
 
+Where:
+
+- $R$ is the user-item matrix.
+- $P$ is the user matrix.
+- $Q$ is the item matrix.
+- $\lambda$ is the regularization term.
+- $I$ is the identity matrix.
+
 <div style = "font-size: 0.6em;">
 
 \**Note: You need to include the regularization term to prevent overfitting.*
@@ -443,14 +478,14 @@ $$ Q = (P^T \cdot P + \lambda \cdot I)^{-1} \cdot P^T \cdot R $$
 
 ## Question | Collaborative Filtering
 
-Which of the following is an advantage of **collaborative** filtering?
+Which of the following is an advantage of **user-user collaborative** filtering?
 
 
 <div class='col-wrapper' style = 'display: flex; align-items: top; margin-top: 2em; margin-left: -1em;'>
 <div class='c1' style = 'width: 70%; display: flex; align-items: center; flex-direction: column; margin-top: 2em'>
 <div style = 'line-height: 2em; font-size: 0.8em;'>
 &emsp;A. Can recommend very different items that the user has not seen before. <br>
-&emsp;B. Solves the cold-start problem for both users and items. <br>
+&emsp;B. Tends to have a dense matrix. <br>
 &emsp;C. No need for data on other users. <br>
 &emsp;D. All of the above. <br>
 </div>
@@ -485,7 +520,7 @@ Recommendation systems are a powerful tool for personalizing user experiences an
   <div style="font-size: 0.8em; left: 0; width: 60%; position: absolute;">
 
   # Exit Poll
-  ## On a scale of 1-5, how confident are you with the following methods:
+  ## On a scale of 1-5, how confident are you with the following recommendation modeling methods?
 
   1. Content-Based Filtering
   2. Collaborative Filtering
