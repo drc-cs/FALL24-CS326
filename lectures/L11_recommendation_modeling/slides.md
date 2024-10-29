@@ -130,12 +130,13 @@ Content-based filtering methods are based on a description of the **item** and a
 
 ### User Matrix
 
-- A set of data points that represents the user’s preferences. This is usually a vector of ratings or reviews of items that the user has interacted with.
+- A set of data points that represents all user’s preferences. When a user interacts with an item, the user matrix is updated.
 
 ### Item Matrix
 
-- A set of data points that represents all item’s features.
-- Features can be anything that describes the item, such as genre, author, or price. They can also be derived from the item’s content (TF-IDF, Word2Vec, Reduced Dimensionality, etc.)
+- A set of data points that represents every item’s content.
+- Items can be represented as a set of features.
+  - For books, these features could be genre, author, and publication date. More sophisticated models can use text analysis to extract features from the book's content.
 
 ### User-Item Similarity Matrix
 
