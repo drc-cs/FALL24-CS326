@@ -25,11 +25,11 @@ This schedule is tentative and may change as the course progresses. Click on lin
 | 11 | 10.29.2024 | [Recommendation Modeling](https://drc-cs.github.io/FALL24-CS326/lectures/L11_recommendation_modeling/#/) | | |
 | 12 | 10.31.2024 | Project 1-on-1 | | P.02 |
 | 13 | 11.05.2024 | Project 1-on-1 | | |
-| 14 | 11.07.2024 | Time Series Analysis | | |
-| 15 | 11.12.2024 | Natural Language Processing <br> *Text Preprocessing* | H.04 | |
+| 14 | 11.07.2024 | [Time Series Analysis](https://drc-cs.github.io/FALL24-CS326/lectures/L14_time_series_analysis/#/) | | |
+| 15 | 11.12.2024 | Natural Language Processing <br> *Text Preprocessing* | | |
 | 16 | 11.14.2024 | Natural Language Processing <br> *Text Generation* | | |
-| 17 | 11.19.2024 | Quiz Review | | |
-| 18 | 11.21.2024 | Storytelling and Ethics | H.05 | |
+| 17 | 11.19.2024 | Quiz Review | [H.04](https://github.com/drc-cs/FALL24-CS326/tree/main/homeworks/H04) | |
+| 18 | 11.21.2024 | Storytelling and Ethics | | |
 | 19 | 11.26.2024 | Quiz | | |
 | 20 | 12.03.2024 | Project Presentation | | P.03 - P.04 |
 | 21 | 12.05.2024 | Project Presentation  | | P.03 |
@@ -92,8 +92,7 @@ Homeworks are designed to reinforce the concepts covered in lecture. They will b
 | H.01 | 10.01.2024 | Hello, World! |
 | H.02 | 10.15.2024 | Exploratory Analysis & Statistical Inference |
 | H.03 | 10.24.2024 | Supervised Machine Learning |
-| H.04 | 11.05.2024 | Unsupervised Machine Learning |
-| H.05 | 11.19.2024 | Natural Language Processing |
+| H.04 | 11.19.2024 | Unsupervised Machine Learning & Time Series |
 
 ------
 
