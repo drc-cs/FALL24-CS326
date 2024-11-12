@@ -110,6 +110,14 @@ NLP is transforming industries by automating tasks, improving data analysis, and
 
 <div class="header-slide">
 
+# Industry Scenario
+
+</div>
+
+<!--s-->
+
+<div class="header-slide">
+
 # Regular Expressions
 
 </div>
