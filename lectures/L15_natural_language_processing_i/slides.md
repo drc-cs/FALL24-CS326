@@ -43,7 +43,7 @@ revealOptions:
 - Tokenization
 - Bag of Words (BoW)
 - Term Frequency-Inverse Document Frequency (TF-IDF)
-- Naive Bayes
+- Markov Chains
 - Evaluation of Text Generation Models
 
 Scan the QR code or go to [pollev.com/nucs](https://pollev.com/nucs)
@@ -273,7 +273,7 @@ We'll talk more about word embeddings in the next lecture, but it's important to
 
 Stop words are common words that are filtered out during text processing to reduce noise and improve performance. They are typically removed before tokenization.
 
-**Examples** include "and," "or," "but."
+**Examples** include <span class="code-span">and</span> / <span class="code-span">the</span> / <span class="code-span">or</span>
 
 <!--s-->
 
@@ -315,7 +315,7 @@ Stop Words Removed:
 
 <!--s-->
 
-## Classical NLP Methods | Bag of Words (BoW)
+## Bag of Words (BoW)
 
 BoW represents text by counting the occurrences of each word, ignoring grammar and order. It's simple but lacks context and semantic understanding.
 
@@ -323,13 +323,13 @@ BoW represents text by counting the occurrences of each word, ignoring grammar a
 
 <!--s-->
 
-## Classical NLP Methods | Term Frequency-Inverse Document Frequency (TF-IDF)
+## Term Frequency-Inverse Document Frequency (TF-IDF)
 
 TF-IDF is a statistical measure that evaluates the importance of a word in a document relative to a corpus. It is used to represent text data as a vector.
 
 <div class="col-wrapper">
 
-<div class="c1" style="width: 50%; margin: 0; padding: 0;">
+<div class="c1" style="width: 50%; margin: 0; padding: 0; font-size: 0.8em;">
 
 ### TF-IDF
 
@@ -365,11 +365,11 @@ Where:
 
 While the field of NLP has seen significant advancements with deep learning, classical models remain relevant for many tasks. These models are interpretable, computationally efficient, and require less data.
 
-In fields where data is scarce or interpretability is crucial, classical models are often preferred. Most text tasks can be framed into two categories: **text classification** and **text generation**.
+In fields where data is scarce or interpretability is crucial, classical models can even be preferred. Most text tasks can be framed into two categories: **text classification** and **text generation**.
 
 <!--s-->
 
-## Classical Modeling | K-Nearest Neighbors (Classification)
+## Text Classification | K-Nearest Neighbors
 
 Once you have a fixed-length vector representation of text, you can use K-Nearest Neighbors (KNN) to classify text by comparing document vectors.
 
@@ -403,7 +403,85 @@ Uses BoW or TF-IDF vectors (or more recently, word embeddings).
 
 <!--s-->
 
-## Text Generation with Markov Chains | Introduction
+## Text Generation | Markov Chains
+
+Markov Chains are probabilistic models used for generating text. By modeling the context of words with historical patterns, Markov chains can simulate text generation processes.
+
+<div class="col-centered">
+<img src="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2F2.bp.blogspot.com%2F-U2fyhOJ7bN8%2FUJsL23oh3zI%2FAAAAAAAADRs%2FwZNWvVR-Jco%2Fs1600%2Ftext-markov.png" width="500" style="margin: 0; padding: 0; display: block; border-radius: 10px;">
+<span style="font-size: 0.6em; padding-top: 0.5em; text-align: center; display: block; color: grey;">awalsh128.blogspot.com</span>
+</div>
+
+<!--s-->
+
+## Text Generation | Markov Chains
+
+In the context of text generation, a Markov chain uses a finite set of states (words) and transitions between these states based on probabilities.
+
+### Key Elements
+
+- **States**: Words or tokens in a text.
+
+- **Transition Probabilities**: The probability of moving from one word to another. 
+
+- **Order**: Refers to how many previous states (words) influence the next state.
+
+<!--s-->
+
+## Text Generation | Markov Chains
+
+Consider a simple first-order Markov Chain, which uses the current word to predict the next word.
+
+
+### Transition Matrix
+
+A transition matrix represents the probabilities of transitioning from each word to possible subsequent words.
+
+### Markov Process (First Order)
+
+$$ P(w_{t+1} | w_t) = P(w_{t+1} | w_t, w_{t-1}, \ldots, w_1) $$
+
+tldr; the probability of the next word depends only on the current word.
+
+
+<!--s-->
+
+## Text Generation | Markov Chains
+
+Let's say we have the following text:
+
+> "The quick brown fox jumps over the lazy dog."
+
+|  | The | quick | brown | fox | jumps | over | lazy | dog |
+|--------------|-------|---------|---------|-------|---------|--------|--------|-------|
+| The        | 0.0   | 0.5     | 0.0     | 0.0   | 0.0     | 0.0    | 0.5    | 0.0   |
+| quick      | 0.0   | 0.0     | 1.0     | 0.0   | 0.0     | 0.0    | 0.0    | 0.0   |
+| brown      | 0.0   | 0.0     | 0.0     | 1.0   | 0.0     | 0.0    | 0.0    | 0.0   |
+| fox        | 0.0   | 0.0     | 0.0     | 0.0   | 1.0     | 0.0    | 0.0    | 0.0   |
+| jumps      | 0.0   | 0.0     | 0.0     | 0.0   | 0.0     | 1.0    | 0.0    | 0.0   |
+| over       | 0.0   | 0.0     | 0.0     | 0.0   | 0.0     | 0.0    | 1.0    | 0.0   |
+| lazy       | 0.0   | 0.0     | 0.0     | 0.0   | 0.0     | 0.0    | 0.0    | 1.0   |
+| dog        | 0.0   | 0.0     | 0.0     | 0.0   | 0.0     | 0.0    | 0.0    | 0.0   |
+
+Using these probabilities, you can generate new text by predicting each subsequent word based on the current word.
+
+<!--s-->
+
+## Text Generation | Markov Chains
+
+Increasing the order allows the model to depend on more than one preceding word, creating more coherent and meaningful sentences.
+
+### Second-Order Markov Chain Example
+
+Given bi-grams:
+
+> "The quick", "quick brown", "brown fox", "fox jumps", "jumps over", "over the", "the lazy", "lazy dog"
+
+The transition probability now depends on pairs of words:
+
+$$ P(w_3 | w_1, w_2) $$
+
+This provides better context for the generated text, but can also reduce flexibility and introduction of new combinations.
 
 <!--s-->
 
@@ -476,7 +554,7 @@ ROUGE focuses on recall (or the number of overlapping words) in summarization.
 - Tokenization
 - Bag of Words (BoW)
 - Term Frequency-Inverse Document Frequency (TF-IDF)
-- Naive Bayes
+- Markov Chains
 - Evaluation of Text Generation Models
 
 Scan the QR code or go to [pollev.com/nucs](https://pollev.com/nucs)
