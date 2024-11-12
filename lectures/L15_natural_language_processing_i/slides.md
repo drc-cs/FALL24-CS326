@@ -13,7 +13,6 @@ revealOptions:
 
   # Introduction to Data Science Pipelines
   ## L.15 Natural Language Processing I
-  ### ! Work in Progress ! 
 
   </div>
   </div>
@@ -65,7 +64,7 @@ NLP combines computational linguistics with machine learning to process and anal
 
 <!--s-->
 
-## Introduction to NLP | Applications
+## NLP Applications
 
 <div class="col-wrapper">
 
@@ -97,7 +96,7 @@ NLP combines computational linguistics with machine learning to process and anal
 
 <!--s-->
 
-## Introduction to NLP | Impact on Society
+## NLP Impact on Society
 
 NLP is transforming industries by automating tasks, improving data analysis, and enhancing communication. It impacts our daily lives through digital assistants, real-time translation, and personalized content delivery.
 
@@ -105,7 +104,15 @@ NLP is transforming industries by automating tasks, improving data analysis, and
 
 - Classical methods use statistics (Naive Bayes).
 
-- Deep learning techniques have emerged in recent years (LSTM/transformers).
+- Deep learning techniques (combined with statistics) have emerged in recent years (LSTM/transformers).
+
+<!--s-->
+
+<div class="header-slide">
+
+# Regular Expressions
+
+</div>
 
 <!--s-->
 
@@ -189,7 +196,15 @@ Live regular expression practice: https://regex101.com/
 
 <!--s-->
 
-## Fundamental Concepts | Tokenization
+<div class="header-slide">
+
+# Tokenization
+
+</div>
+
+<!--s-->
+
+## Tokenization
 
 Tokenization is the process of breaking text into smaller units, such as sub-words or words. It is a fundamental step in NLP tasks.
 
@@ -202,7 +217,6 @@ Tokenization is the process of breaking text into smaller units, such as sub-wor
 - **Word Tokenization**: Splitting text into individual words or n-grams.
 
 - **Tokenization Libraries**: NLTK, spaCy, scikit-learn.
-
 
 </div>
 
@@ -226,10 +240,19 @@ Tokenization is the process of breaking text into smaller units, such as sub-wor
 
 ## W.S.I.C.A.X.I.T.E.O.D.L.O.H.D.I.R.T.D.L.?
 
-Modern LLMs use a special type of tokenization called byte pair encoding (BPE). We'll talk more about byte pair encoding specifically on Thursday.
+Modern LLMs use a special type of tokenization called byte pair encoding (BPE). We'll talk more about byte pair encoding specifically on Thursday when we build our R.A.G. system. 
+
 <!--s-->
 
-## Fundamental Concepts | Stemming and Lemmatization
+<div class="header-slide">
+
+# Stemming and Lemmatization
+
+</div>
+
+<!--s-->
+
+## Stemming and Lemmatization
 
 Stemming and lemmatization are text normalization techniques that reduce words to their base or root form. They are used to improve text processing and analysis by reducing the vocabulary size.
 
@@ -269,7 +292,15 @@ We'll talk more about word embeddings in the next lecture, but it's important to
 
 <!--s-->
 
-## Fundamental Concepts | Stop Words
+<div class="header-slide">
+
+# Stop Words
+
+</div>
+
+<!--s-->
+
+## Stop Words
 
 Stop words are common words that are filtered out during text processing to reduce noise and improve performance. They are typically removed before tokenization.
 
@@ -283,7 +314,7 @@ Attention mechanisms in transformers (presumably) learn to ignore stop words.
 
 <!--s-->
 
-## Fundamental Concepts | Example Sentence Preprocessing
+## Example Sentence Preprocessing
 
 <div style = "font-size: 0.8em;">
 
@@ -336,7 +367,6 @@ TF-IDF is a statistical measure that evaluates the importance of a word in a doc
 - **Term Frequency (TF)**: Frequency of a term in a document.
 
 - **Inverse Document Frequency (IDF)**: Importance of a term across a corpus.
-
 
 </div>
 
