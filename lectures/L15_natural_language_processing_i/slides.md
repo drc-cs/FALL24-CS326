@@ -399,7 +399,15 @@ In fields where data is scarce or interpretability is crucial, classical models 
 
 <!--s-->
 
-## Text Classification | K-Nearest Neighbors
+<div class="header-slide">
+
+# Text Classification
+
+</div>
+
+<!--s-->
+
+## K-Nearest Neighbors
 
 Once you have a fixed-length vector representation of text, you can use K-Nearest Neighbors (KNN) to classify text by comparing document vectors.
 
@@ -433,7 +441,15 @@ Uses BoW or TF-IDF vectors (or more recently, word embeddings).
 
 <!--s-->
 
-## Text Generation | Markov Chains
+<div class="header-slide">
+
+# Text Generation
+
+</div>
+
+<!--s-->
+
+## Markov Chains
 
 Markov Chains are probabilistic models used for generating text. By modeling the context of words with historical patterns, Markov chains can simulate text generation processes.
 
@@ -444,7 +460,7 @@ Markov Chains are probabilistic models used for generating text. By modeling the
 
 <!--s-->
 
-## Text Generation | Markov Chains
+## Markov Chains
 
 In the context of text generation, a Markov chain uses a finite set of states (words) and transitions between these states based on probabilities.
 
@@ -458,7 +474,7 @@ In the context of text generation, a Markov chain uses a finite set of states (w
 
 <!--s-->
 
-## Text Generation | Markov Chains
+## Markov Chains
 
 Consider a simple first-order Markov Chain, which uses the current word to predict the next word.
 
@@ -476,7 +492,7 @@ tldr; the probability of the next word depends only on the current word.
 
 <!--s-->
 
-## Text Generation | Markov Chains
+## Markov Chains
 
 Let's say we have the following text:
 
@@ -497,7 +513,7 @@ Using these probabilities, you can generate new text by predicting each subseque
 
 <!--s-->
 
-## Text Generation | Markov Chains
+## Markov Chains
 
 Increasing the order allows the model to depend on more than one preceding word, creating more coherent and meaningful sentences.
 
