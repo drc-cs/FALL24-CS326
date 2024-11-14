@@ -478,7 +478,7 @@ relevant_chunks = collection.query(query_embeddings = embedding_function([query]
 
 <!--s-->
 
-## 3. Retrieving Embeddings | Tips & Re-Ranking
+## 3. Retrieving Embeddings | 🔥 Tips & Re-Ranking
 
 In practice, the retrieved documents may not be in the order you want. While a vector db will often return documents in order of similarity to the query, you can re-rank documents based on a number of factors. Remember, your chatbot is paying per-token on calls to LLMs. You can cut costs by re-ranking the most relevant documents first and only sending those to the LLM.
 
@@ -488,11 +488,11 @@ In practice, the retrieved documents may not be in the order you want. While a v
 
 ### Multi-criteria Optimization
 
-Re-ranking allows for the consideration of additional factors beyond similarity, such as document quality, recency, and 'authoritativeness'.
+Consideration of additional factors beyond similarity, such as document quality, recency, and 'authoritativeness'.
 
 ### User Feedback
 
-Re-ranking can also be used to incorporate user feedback into the retrieval process. For example, if a user clicks on a document, it can be re-ranked higher in future searches.
+Incorporate user feedback into the retrieval process. For example, if a user clicks on a document, it can be re-ranked higher in future searches.
 
 </div>
 
@@ -500,9 +500,9 @@ Re-ranking can also be used to incorporate user feedback into the retrieval proc
 
 ### Diversification
 
-Re-ranking can also be used to diversify the search results by ensuring that the retrieved documents cover a wide range of topics.
+Diversify the search results by ensuring that the retrieved documents cover a wide range of topics.
 
-### Query Expansion
+### Query Expansion & Rephrasing
 
 For example, if a user asks about "academic integrity", the system could expand the query to include related terms like "plagiarism" and "cheating". This will help retrieve more relevant documents.
 
