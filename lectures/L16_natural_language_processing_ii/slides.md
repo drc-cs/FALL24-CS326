@@ -42,7 +42,7 @@ revealOptions:
   2. Document Chunking
   3. Word Embeddings
   4. Vector Storage & Retrieval
-  5. Large Language Model Text Generation
+  5. Text Generation with LLMs
 
   Scan the QR code or go to [pollev.com/nucs](https://pollev.com/nucs)
 
@@ -54,6 +54,13 @@ revealOptions:
 </div>
 
 <!--s-->
+
+## Announcements
+
+- H.04 is due on 11.19.2024.
+- Quiz review on 11.19.2024.
+- P.04 (Written Report) will be due on 12.03.2024.
+- P.03 (Presentations) will take place 12.03.2024 / 12.05.2024.
 
 <!--s-->
 
@@ -71,7 +78,7 @@ Learning RAG will also introduce longstanding concepts that are critical for mod
 
 Large language models (LLMs) have revolutionized natural language processing (NLP) by achieving state-of-the-art performance on a wide range of tasks. We will discuss LLMs in more detail later in this lecture. However, for now it's important to note that modern LLMs have some severe limitations, including:
 
-- **Inability to access external knowledge**
+- **Inability to (natively) access external knowledge**
 - **Hallucinations** (generating text that is not grounded in reality)
 
 Retrieval-Augmented Generation (RAG) is an approach that addresses these limitations by combining the strengths of information retrieval systems with LLMs.
@@ -471,6 +478,37 @@ relevant_chunks = collection.query(query_embeddings = embedding_function([query]
 
 <!--s-->
 
+## 3. Retrieving Embeddings | Tips & Re-Ranking
+
+In practice, the retrieved documents may not be in the order you want. While a vector db will often return documents in order of similarity to the query, you can re-rank documents based on a number of factors. Remember, your chatbot is paying per-token on calls to LLMs. You can cut costs by re-ranking the most relevant documents first and only sending those to the LLM.
+
+<div class = "col-wrapper">
+
+<div class="c1" style = "width: 50%">
+
+### Multi-criteria Optimization
+
+Re-ranking allows for the consideration of additional factors beyond similarity, such as document quality, recency, and 'authoritativeness'.
+
+### User Feedback
+
+Re-ranking can also be used to incorporate user feedback into the retrieval process. For example, if a user clicks on a document, it can be re-ranked higher in future searches.
+
+</div>
+
+<div class="c2" style = "width: 50%">
+
+### Diversification
+
+Re-ranking can also be used to diversify the search results by ensuring that the retrieved documents cover a wide range of topics.
+
+### Query Expansion
+
+For example, if a user asks about "academic integrity", the system could expand the query to include related terms like "plagiarism" and "cheating". This will help retrieve more relevant documents.
+
+
+<!--s-->
+
 <div class="header-slide">
 
 ## Retrieval-Augmented Generation (RAG)
@@ -502,6 +540,7 @@ There are many large language models available at platforms like:
 - [Google Gemini](https://ai.google.dev/gemini-api/docs?gad_source=1&gclid=CjwKCAiAudG5BhAREiwAWMlSjKXwuvq9JRRX0xxXaS7yCSn-NWo3e4rso3D-enl2IblIH09phtCvSxoCJhoQAvD_BwE)
 - [Anthropic Claude](https://claude.ai/)
 - [HuggingFace (Many)](https://huggingface.co/)
+- ...
 
 
 </div>
@@ -546,7 +585,7 @@ Autoregressive models generate text one token at a time by conditioning on the p
 
 <!--s-->
 
-## Generate | GPT-4 / OpenAI API
+## Generate | GPT-4 & OpenAI API
 
 What really sets OpenAI apart is their extremely useful and cost-effective API. This puts their LLM in the hands of users with minimal effort.
 
@@ -679,7 +718,7 @@ Today we discussed Retrieval-Augmented Generation (RAG), a modern NLP approach t
   2. Document Chunking
   3. Word Embeddings
   4. Vector Storage & Retrieval
-  5. Large Language Model Text Generation
+  5. Text Generation with LLMs
 
   Scan the QR code or go to [pollev.com/nucs](https://pollev.com/nucs)
 
@@ -688,4 +727,14 @@ Today we discussed Retrieval-Augmented Generation (RAG), a modern NLP approach t
   <div class="c2 col-centered" style = "bottom: 0; right: 0; width: 100%; padding-top: 5%">
   <img src="https://storage.googleapis.com/slide_assets/PollEverywhere.png" width="50%">
   </div>
+</div>
+
+<!--s-->
+
+<div class="header-slide">
+
+# Project Time
+
+<iframe src="https://lottie.host/embed/bd6c5b65-d724-4f97-882c-40f58367ea38/BIKhZdSeqW.json" height="100%" width = "100%"></iframe>
+
 </div>
