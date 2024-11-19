@@ -40,6 +40,14 @@ revealOptions:
 
 <!--s-->
 
+## Announcements
+
+- H.04 is due **tonight** 11.19.2024.
+- P.04 (Written Report) will be due on 12.03.2024.
+- P.03 (Presentations) will take place 12.03.2024 / 12.05.2024.
+
+<!--s-->
+
 <div class="header-slide">
 
 # Quiz Review
@@ -77,7 +85,7 @@ You will then be able to access the quiz on Canvas and take the quiz on your com
 
 - Given a scenario with missing data, pick the appropriate method to handle it.
 
-- Be able to describe a visual or summary process for identifying outliers in a dataset.
+- Be able to describe methods for identifying outliers in a dataset.
 
 <!--s-->
 
@@ -97,7 +105,7 @@ You will then be able to access the quiz on Canvas and take the quiz on your com
 
 - Identify kurtosis (leptokurtic, mesokurtic, platykurtic).
 
-- Differentiate between boxplots and violin plots.
+- Know key properties of a normal distribution.
 
 <!--s-->
 
@@ -107,7 +115,7 @@ You will then be able to access the quiz on Canvas and take the quiz on your com
 
 - Differentiate when to use Pearson or Spearman correlation, and how to interpret their results (negative / positive / no relationship).
 
-- Identify a scenario as Simpson's Paradox.
+- Identify a scenario as Simpson's Paradox (or not).
 
 <!--s-->
 
@@ -120,10 +128,9 @@ You will then be able to access the quiz on Canvas and take the quiz on your com
 
 - Define hypothesis testing for a scenario in terms of $H_0$ and $H_1$.
 
-- Provided a scenario, identify the type of test to use (t-test, paired t-test, chi-squared test, anova).
+- Provided a scenario, identify the hypothesis test to use (t-test, paired t-test, chi-squared test, anova).
 
 - Know the non-parametric analogs to the tests we covered in lecture.
-
 
 <!--s-->
 
@@ -173,7 +180,9 @@ You will then be able to access the quiz on Canvas and take the quiz on your com
 
 [[slides]](https://drc-cs.github.io/FALL24-CS326/lectures/L08_supervised_machine_learning_ii/#/)
 
-- Explain ROC curves (axes) and what the AUC represents (random / not-random).
+- Explain ROC curves (axes) and what the AUC represents.
+
+- Explain the value of k-fold cross-validation.
 
 - Explain the value of a softmax function in the context of a multi-class classification problem.
 
@@ -183,9 +192,9 @@ You will then be able to access the quiz on Canvas and take the quiz on your com
 
 [[slides]](https://drc-cs.github.io/FALL24-CS326/lectures/L09_supervised_machine_learning_iii/#/)
 
-- Explain the ID3 algorithm and how it works at a high level (understand entropy & information gain).
+- Explain the ID3 algorithm and how it works (understand entropy & information gain).
 
-- Be able to identify a decision tree as overfitting or underfitting.
+- Be able to identify a decision tree model as overfitting or underfitting.
 
 - Differentiate between and be able to explain different ensemble modeling methods (bagging, boosting, stacking).
 
@@ -219,7 +228,7 @@ You will then be able to access the quiz on Canvas and take the quiz on your com
 
 - Identify additive vs multiplicative decomposition in time series data.
 
-- Know the value of differencing in time series data (e.g. what does it do, and why is that important?).
+- Know the value of differencing in time series data (i.e. what does it do, and why is that important?).
 
 - Look at ACF / PACF plots and determine what order of AR or MA to use in an ARIMA model.
 
@@ -239,7 +248,6 @@ You will then be able to access the quiz on Canvas and take the quiz on your com
 
 # L.16 | Natural Language Processing
 
-
 [[slides]](https://drc-cs.github.io/FALL24-CS326/lectures/L16_natural_language_processing_ii/#/)
 
 - Explain the benefits of word embeddings over one-hot encoding.
@@ -248,7 +256,7 @@ You will then be able to access the quiz on Canvas and take the quiz on your com
 
 - Explain what a vector database is and how it can be used in a RAG application.
 
-- Explain the benefits of RAG + LLM over solo-LLM models.
+- Explain the benefits of RAG over just-LLM chatbots.
 
 <!--s-->
 
