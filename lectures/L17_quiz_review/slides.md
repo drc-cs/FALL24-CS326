@@ -260,6 +260,41 @@ You will then be able to access the quiz on Canvas and take the quiz on your com
 
 <!--s-->
 
+## P.03 Time Slots
+
+Below are the time slots for the Project Presentations (P.03).
+
+<div class = "col-wrapper">
+<div class="c1" style = "width: 50%;">
+
+### 12.03.2024
+
+- $$$ [11:00 - 11:10]
+- Group ZERO [11:10 - 11:20]
+- hi [11:20 - 11:30]
+- Periwinkle [11:30 - 11:40]
+- The Data Miners [11:40 - 11:50]
+- the elders [11:50 - 12:00]
+
+</div>
+
+<div class="c2" style = "width: 50%;">
+
+### 12.05.2024
+
+- group e [11:00 - 11:10]
+- BuyingChicago [11:10 - 11:20]
+- good name [11:20 - 11:30]
+- Group [placeholder] [11:30 - 11:40]
+- Group 7 [11:40 - 11:50]
+- Group 10086 [11:50 - 12:00]
+- Group A [12:00 - 12:10]
+
+</div>
+</div>
+
+<!--s-->
+
 <div class="header-slide">
 
 # Project Time
