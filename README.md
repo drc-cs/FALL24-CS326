@@ -29,7 +29,7 @@ This schedule is tentative and may change as the course progresses. Click on lin
 | 15 | 11.12.2024 | [Natural Language Processing <br> *Classical NLP*](https://drc-cs.github.io/FALL24-CS326/lectures/L15_natural_language_processing_i/#/) | | |
 | 16 | 11.14.2024 | [Natural Language Processing <br> *Modern NLP*](https://drc-cs.github.io/FALL24-CS326/lectures/L16_natural_language_processing_ii/#/) | | |
 | 17 | 11.19.2024 | [Quiz Review](https://drc-cs.github.io/FALL24-CS326/lectures/L17_quiz_review/#/) | [H.04](https://github.com/drc-cs/FALL24-CS326/tree/main/homeworks/H04) | |
-| 18 | 11.21.2024 | Storytelling and Ethics | | |
+| 18 | 11.21.2024 | [Storytelling and Ethics](https://drc-cs.github.io/FALL24-CS326/lectures/L18_storytelling_and_ethics/#/) | | |
 | 19 | 11.26.2024 | Quiz | | |
 | 20 | 12.03.2024 | Project Presentation | | P.03 - P.04 |
 | 21 | 12.05.2024 | Project Presentation  | | P.03 |
