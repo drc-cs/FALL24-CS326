@@ -496,7 +496,7 @@ You can collect more data on houses with swimming pools to improve the accuracy 
 <div class="c2 col-centered" style = "width: 30%">
 
 <div>
-<img src="https://p16-va-tiktok.ibyteimg.com/obj/musically-maliva-obj/4a2a1776a08f761c6464f596c0c5e8e6.png" style="margin: 0 auto; display: block; width: 50%; border-radius: 5px;">
+<img src="https://p16-va-tiktok.ibyteimg.com/obj/musically-maliva-obj/4a2a1776a08f761c6464f596c0c5e8e6.png" style="margin: 0 auto; display: block; width: 100%; border-radius: 5px;">
 <p style="text-align: center; font-size: 0.6em; color: grey;">TikTok, 2024</p>
 </div>
 </div>
