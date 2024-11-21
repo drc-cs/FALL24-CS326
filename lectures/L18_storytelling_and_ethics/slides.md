@@ -37,6 +37,14 @@ revealOptions:
 
 <!--s-->
 
+## Announcements
+
+- [P.04](https://canvas.northwestern.edu/courses/217294/assignments/1492761) (Written Report) will be due on 12.03.2024.
+- [P.03](https://canvas.northwestern.edu/courses/217294/assignments/1492759) (Presentations) will take place 12.03.2024 / 12.05.2024.
+- Final quiz will take place this upcoming Tuesday, 11.26.2024.
+
+<!--s-->
+
 # Agenda
 
 <div class = "col-wrapper">
