@@ -55,11 +55,11 @@ revealOptions:
 
 ## **Part 2**: Ethics of Data Science
 
-- Consent for Data
-- Privacy
-- Examining Bias
+- Consent for Data.
+- Privacy.
+- Examining Bias.
 - Who is Held Accountable?
-- Radicalization and Misinformation
+- Radicalization and Misinformation.
 
 </div>
 </div>
@@ -280,11 +280,11 @@ You can collect more data on houses with swimming pools to improve the accuracy 
 
 ## Storytelling | Every Good **Presentation** Must Include ...
 
-1. Clear and concise slides
+1. Clear and concise slides.
 
-2. A compelling narrative
+2. A compelling narrative.
 
-3. Energy and confidence 
+3. Energy and confidence.
 
 <!--s-->
 
