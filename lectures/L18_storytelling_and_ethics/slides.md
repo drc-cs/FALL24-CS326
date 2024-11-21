@@ -7,25 +7,20 @@ revealOptions:
     transition: 'none'
 ---
 
+
 <div class = "col-wrapper">
-<div class="c1 col-centered">
+  <div class="c1 col-centered">
+  <div style="font-size: 0.8em; left: 0; width: 70%; position: absolute;">
 
-<div style="font-size: 0.8em; left: 0; width: 70%; position: absolute;">
+  # Introduction to Data Science Pipelines
+  ## L.18 | Storytelling and Ethics
 
-# Introduction to the Data Science Pipeline
-## L.18 | Storytelling and Ethics
-
+  </div>
+  </div>
+  <div class="c2 col-centered" style = "bottom: 0; right: 0; width: 80%; padding-top: 30%">
+  <iframe src="https://lottie.host/embed/02b9bf18-7fb2-454b-b5d4-5196357a8ecf/YTCoN4ouWw.json" height="100%" width = "100%"></iframe>
+  </div>
 </div>
-
-</div>
-
-<div class="c2 col-centered" style = "bottom: 0; right: 0; width: 100%; padding-top: 20%;">
-
-<iframe src="https://lottie.host/embed/02b9bf18-7fb2-454b-b5d4-5196357a8ecf/YTCoN4ouWw.json"></iframe>
-
-</div>
-</div>
-
 
 <!--s-->
 
