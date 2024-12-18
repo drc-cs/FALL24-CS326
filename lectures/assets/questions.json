@@ -3,7 +3,13 @@
         "slides": "L01_overview/slides.md",
         "key": "L.01-Q.01",
         "question": "What is your level of comfort with the syllabus?",
-        "freeResponse": 1
+        "options": [
+            "Very Comfortable",
+            "Comfortable",
+            "Neutral",
+            "Uncomfortable",
+            "Very Uncomfortable"
+        ]
     },
     {
         "slides": "L01_overview/slides.md",
